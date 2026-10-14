@@ -1,0 +1,14 @@
+# 학생 개인정보가 담긴 엑셀 파일이 실수로 올라가지 않도록 막습니다.
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+# 예시 폴더의 가짜 데이터만 허용
+!examples/*.xlsx
+
+# 운영체제·편집기 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.vscode/
